@@ -126,6 +126,7 @@ p { margin: 0 0 1rem; }
 .walking { background: var(--white); }
 .walking .section-heading { max-width: none; }
 .walking .section-heading > p:last-child { max-width: none; white-space: nowrap; }
+.walking .section-heading > p.walking-price { color: var(--purple-dark); font-family: var(--display); font-size: 1.45rem; font-weight: 700; line-height: 1.65; }
 .walking-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: stretch; }
 .walking-card { display: flex; overflow: hidden; min-width: 0; height: 100%; flex-direction: column; background: var(--lavender-soft); }
 .walking-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center; }
@@ -358,7 +359,7 @@ footer { padding: 26px 0; background: #21182f; color: rgba(255,255,255,.7); font
         <div class="section-heading compact">
           <p class="eyebrow">A pie y sin apuro</p>
           <h2>Walking tours por los barrios</h2>
-          <p>Recorridos de 2 horas con guía en italiano. €35 por persona, con un mínimo de 2&nbsp;pasajeros.</p>
+          <p class="walking-price">Recorridos de 2 horas con guía en italiano. €35 por persona, con un mínimo de 2&nbsp;pasajeros.</p>
         </div>
         <div class="walking-grid">
           <article class="walking-card">
