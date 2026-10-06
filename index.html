@@ -125,6 +125,7 @@ p { margin: 0 0 1rem; }
 .walking { background: var(--white); }
 .walking .section-heading { max-width: none; }
 .walking .section-heading > p:last-child { max-width: none; white-space: nowrap; }
+.walking .section-heading > p.walking-price { color: var(--purple-dark); font-family: var(--display); font-size: 1.45rem; font-weight: 700; line-height: 1.65; }
 .walking-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: stretch; }
 .walking-card { display: flex; overflow: hidden; min-width: 0; height: 100%; flex-direction: column; background: var(--lavender-soft); }
 .walking-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center; }
@@ -357,7 +358,7 @@ footer { padding: 26px 0; background: #21182f; color: rgba(255,255,255,.7); font
         <div class="section-heading compact">
           <p class="eyebrow">A piedi, senza fretta</p>
           <h2>Walking tour nei quartieri</h2>
-          <p>Tour di 2 ore con guida in italiano. €35 a persona, con un minimo di 2&nbsp;partecipanti.</p>
+          <p class="walking-price">Tour di 2 ore con guida in italiano. €35 a persona, con un minimo di 2&nbsp;partecipanti.</p>
         </div>
         <div class="walking-grid">
           <article class="walking-card">
